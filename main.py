@@ -1,4 +1,4 @@
-from scanner import *
+from utils.scanner import *
 import sys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
@@ -11,7 +11,7 @@ import os
 from fake_useragent import UserAgent
 import time
 import random
-from tray import *
+from utils.tray import *
 
 GREEN = '\033[92m'
 RED = '\033[91m'
